@@ -1,0 +1,49 @@
+{
+  "name": "skillbridge",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.13.4",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "firebase": "^9.22.2",
+    "firebase-admin": "^13.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.13",
+    "postcss": "8.4.20",
+    "tailwindcss": "3.2.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start:python": "python scripts/ai_server.py",
+    "start:all": "node start-servers.js",
+    "server": "node server/index.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

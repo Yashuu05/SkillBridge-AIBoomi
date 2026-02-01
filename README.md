@@ -33,6 +33,11 @@ SkillBridge introduces a *unified AI-driven coaching ecosystem* that:
 This removes guesswork and brings *clarity, trust, and structure* to athlete development.
 
 ---
+## images
+
+![image](images/photo1.png)
+
+---
 
 ##  How AI Is Used (Explainable & Ethical)
 
